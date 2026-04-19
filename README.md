@@ -38,12 +38,6 @@ Projenin mimari tasarımı, yüksek veri işleme hızı ve ölçeklenebilirlik h
 
 
 
-
-
-<img width="728" height="290" alt="image" src="https://github.com/user-attachments/assets/b0b399cc-a98e-40f0-948d-32a6483cad3e" />
-
-
-
 ## Kurulum
 
 Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
@@ -77,6 +71,9 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
    ```
 
    Uygulama varsayılan olarak `http://127.0.0.1:8000` adresinde çalışacaktır.
+
+
+<img width="728" height="290" alt="image" src="https://github.com/user-attachments/assets/b0b399cc-a98e-40f0-948d-32a6483cad3e" />
 
 ## Kullanım
 
