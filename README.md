@@ -8,6 +8,7 @@ Bu proje, Kocaeli ilindeki yerel haber kaynaklarından otomatik olarak veri topl
 <img width="1584" height="778" alt="image" src="https://github.com/user-attachments/assets/c4d18d92-8379-4d03-998b-7ff41fc9756c" />
 
 
+
 ## Özellikler
 
 - **Otomatik Haber Toplama (Web Scraping):** Kocaeli'de faaliyet gösteren 5 ana yerel haber platformundan (Özgür Kocaeli, Çağdaş Kocaeli, Bizim Yaka, Ses Kocaeli ve Yeni Kocaeli) gerçek zamanlı olarak haber verilerini toplar. `httpx` ve `BeautifulSoup4` kütüphaneleri kullanılarak yüksek performanslı ve asenkron bir veri toplama mekanizması geliştirilmiştir [1].
@@ -35,7 +36,7 @@ Projenin mimari tasarımı, yüksek veri işleme hızı ve ölçeklenebilirlik h
 <img width="508" height="357" alt="image" src="https://github.com/user-attachments/assets/2ed0c311-c29b-4bac-bf53-f5461aa96cb2" />
 
 
-| Kategori | Teknoloji | Açıklama ```
+| Kategori | Teknoloji | Açıklama 
 
 ```python
 import os
@@ -68,7 +69,10 @@ async def serve_frontend(request: Request):
     return templates.TemplateResponse("index.html", {"request": request, "api_key": api_key})
 ```
 
+
+
 <img width="728" height="290" alt="image" src="https://github.com/user-attachments/assets/b0b399cc-a98e-40f0-948d-32a6483cad3e" />
+
 
 
 ## Kurulum
