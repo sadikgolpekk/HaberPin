@@ -2,7 +2,11 @@
 
 ## Özet
 
-Bu proje, Kocaeli ilindeki yerel haber kaynaklarından otomatik olarak veri toplayan, toplanan haberleri Doğal Dil İşleme (NLP) teknikleri kullanarak analiz edip kategorize eden ve bu olayları interaktif bir harita üzerinde görselleştiren kapsamlı bir web uygulamasıdır. Günümüz şehirleşme dinamikleri ve artan nüfus yoğunluğu bağlamında, kentsel olayların (trafik kazaları, yangınlar, altyapı arızaları, asayiş olayları ve kültürel etkinlikler) anlık olarak takip edilmesi elzem hale gelmiştir. Bu sistem, dağınık haldeki yerel haber bilgilerini tek bir platformda toplayarak şehir sakinlerinin ve ilgili kurumların yaşadıkları çevreye dair bilgilere hızlı, bütüncül ve doğru biçimde erişmesini sağlamayı hedeflemektedir [1].
+Bu proje, Kocaeli ilindeki yerel haber kaynaklarından otomatik olarak veri toplayan, toplanan haberleri Doğal Dil İşleme (NLP) teknikleri kullanarak analiz edip kategorize eden ve bu olayları interaktif bir harita üzerinde görselleştiren kapsamlı bir web uygulamasıdır. Günümüz şehirleşme dinamikleri ve artan nüfus yoğunluğu bağlamında, kentsel olayların (trafik kazaları, yangınlar, altyapı arızaları, asayiş olayları ve kültürel etkinlikler) anlık olarak takip edilmesi elzem hale gelmiştir. Bu sistem, dağınık haldeki yerel haber bilgilerini tek bir platformda toplayarak şehir sakinlerinin ve ilgili kurumların yaşadıkları çevreye dair bilgilere hızlı, bütüncül ve doğru biçimde erişmesini sağlamayı hedeflemektedir.
+
+
+<img width="1584" height="778" alt="image" src="https://github.com/user-attachments/assets/c4d18d92-8379-4d03-998b-7ff41fc9756c" />
+
 
 ## Özellikler
 
@@ -20,9 +24,16 @@ Bu proje, Kocaeli ilindeki yerel haber kaynaklarından otomatik olarak veri topl
 
 - **Kullanıcı Dostu ve Duyarlı Arayüz:** `Tailwind CSS` ile modern ve duyarlı bir kullanıcı arayüzü geliştirilmiştir. Frontend, harici bir framework bağımlılığı olmaksızın (Vanilla JS) geliştirilerek düşük kaynak tüketimi ve yüksek render hızı hedeflenmiştir [1].
 
+
+<img width="1595" height="790" alt="image" src="https://github.com/user-attachments/assets/c6ebd3b1-7352-4a8c-80c3-35ac9a4c21d4" />
+
+
 ## Teknoloji Yığını (Tech Stack)
 
-Projenin mimari tasarımı, yüksek veri işleme hızı ve ölçeklenebilirlik hedefleri doğrultusunda modüler bir yapıda kurgulanmıştır. Geliştirme sürecinde modern ve performans odaklı teknolojiler tercih edilmiştir [1].
+Projenin mimari tasarımı, yüksek veri işleme hızı ve ölçeklenebilirlik hedefleri doğrultusunda modüler bir yapıda kurgulanmıştır. Geliştirme sürecinde modern ve performans odaklı teknolojiler tercih edilmiştir.
+
+<img width="508" height="357" alt="image" src="https://github.com/user-attachments/assets/2ed0c311-c29b-4bac-bf53-f5461aa96cb2" />
+
 
 | Kategori | Teknoloji | Açıklama ```
 
@@ -56,6 +67,9 @@ async def serve_frontend(request: Request):
     api_key = os.getenv("GOOGLE_MAPS_API_KEY", "")
     return templates.TemplateResponse("index.html", {"request": request, "api_key": api_key})
 ```
+
+<img width="728" height="290" alt="image" src="https://github.com/user-attachments/assets/b0b399cc-a98e-40f0-948d-32a6483cad3e" />
+
 
 ## Kurulum
 
