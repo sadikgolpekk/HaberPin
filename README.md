@@ -36,8 +36,6 @@ Projenin mimari tasarımı, yüksek veri işleme hızı ve ölçeklenebilirlik h
 <img width="508" height="357" alt="image" src="https://github.com/user-attachments/assets/2ed0c311-c29b-4bac-bf53-f5461aa96cb2" />
 
 
-| Kategori | Teknoloji | Açıklama 
-
 ```python
 import os
 from fastapi import FastAPI, Request
